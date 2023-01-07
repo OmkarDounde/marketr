@@ -1,0 +1,56 @@
+<html>
+<head>
+    <style>
+       #nub> input{
+            height: 100px;
+            width: 100%;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="nub"> <input type="text" id="calc"></input></div>
+    
+
+    <div class="numbers">
+        <button onclick="Calck()">1</button>
+    </div>
+
+
+    <div class="number">
+        <div class="numbers">
+            <button id="numb" onclick="Calck()">1</button>
+        </div>
+        <div class="numbers">
+            <button  onclick="Calck()">1</button>
+        </div>
+        <div class="numbers">
+            <button id="numb" onclick="Calck()">2</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        // var a = document.getElementById('calc').value
+        function Calck() {
+            document.getElementById('calc').value+= document.getElementById('numb')
+        }
+    </script>
+
+<!-- <script>
+    function Calck() {
+        document.getElementById('calc').innerText+= document.getElementById('numb').value;
+    }
+</script> -->
+
+
+
+</body>
+
+</html>

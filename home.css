@@ -1,0 +1,64 @@
+#mainbody{
+    height: 100%;
+    width: 100%;
+}
+#calckbody{
+    /* display: flex; */
+    height: 600px;
+    width: 28%;
+    margin-left: 33%;
+    box-shadow: 1px 2px 3px 4px;
+    /* border: 2px solid red; */
+    background-color: rgba(127, 255, 212, 0.438);
+
+}
+#calckhead{
+    margin-top: 1%;
+    /* height: 5%; */
+    width: 100%;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+#clackscreen{
+    margin-top: 1%;
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+#clackscreen>input{
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 2px 3px 4px;
+    background-color: rgba(137, 43, 226, 0.271);
+}
+#calcknumbers{
+    margin-top: 10%;
+    /* height: 80%; */
+    /* width: 100%; */
+    /* border: 2px solid rgb(2, 0, 0); */
+}
+.number{
+    height:10%;
+    text-align: center;
+    width: 100%;
+    margin-top: 1%;
+    /* border: 2px solid rgb(2, 0, 0); */
+}
+.numbers{
+    height: 90%;
+    width: 30%;
+    box-shadow: 1px 2px 3px 4px;
+    /* border: 2px solid rgb(231, 7, 7); */
+    float: left;
+    margin-left: 2.5%;
+
+}
+button{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+@media screen {
+    
+}
